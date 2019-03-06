@@ -1,0 +1,239 @@
+/* top.css */
+*{margin: 0;padding: 0}
+.top-a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+}
+.logo{
+    height: 100px;
+    width: 230px;
+    margin-left: 190px;
+    position: relative;
+}
+.one{
+    height: 49px;
+    width: 49px;
+    /* 利用url使logo背景底色为橘色，no-repeat为不平铺，center居中 */
+    background:#f56600 url("../images/mi-logo.png" ) no-repeat center center;
+    /* 实现logo.one部分的垂直居中 */
+    position: absolute;
+    margin: auto;
+    top: 0;bottom: 0;
+    /* 实现logo的边角化 */
+    border-radius: 5%;
+}
+/* 为了解决为第一个子元素设置margin-top，导致父元素却整体向下移动的问题 */
+.two{
+    overflow: hidden;
+}
+.two>p{
+    font-size: 30px;
+    margin-left: 68px;
+    margin-top: 20px;
+    color: #333333;
+
+}
+.two>p:last-child{
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: 2px;
+    color:#999999;
+}
+
+/* center.css */
+.center-background{
+    text-decoration: none;
+}
+.center{
+    position: relative;
+    margin: 0 auto;
+    height: 555px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg") no-repeat center center;
+}
+.load{
+    width: 410px;
+    height: 525px;
+    background: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    right: 190px;
+    top: 30px;
+}
+span{
+    /* 内联块并排显示，可设置宽高 */
+    display: inline-block;
+}
+.current{
+    font-size: 24px;
+    color: #f56600;
+    position: absolute;
+    left: 70px;
+    top: 29px;
+}
+.else{
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    right: 70px;
+    top: 29px;
+}
+.split-top{
+    width: 2px;
+    height: 29px;
+    border: 0.1px solid #999999;
+    position: relative;
+    margin:30px  20px 35px;
+}
+.load-x{
+    position: absolute;
+    right: 35px;
+    top: 100px;
+}
+input{
+    width: 325px;
+    height: 50px;
+    left: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    padding-left: 15px;
+}
+button{
+    margin: 10px 0 20px;
+    width: 340px;
+    height: 50px;
+    border: none;
+    background: #f56600;
+    color: #fff;
+    font-size: 14px;
+}
+.load-a{
+    text-decoration: none;
+    color: white;
+}
+.regist{
+    height: 38px;
+    position: relative;
+    top: 202px;
+    right: 44px;
+}
+.regist-a1{
+    font-size: 14px;
+    color: #F56600;
+}
+.regist-a2{
+    font-size: 14px;
+    color: #999999;
+}
+.regist-a2:hover{
+    color: #F56600;
+}
+.split-bottom{
+    color: #999999;
+}
+.regist-div{
+    float:right;
+}
+.qita{
+    position: absolute;
+    color: #999;
+    bottom:85px;
+    left: 154px;
+}
+.qita .left, .right {
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #999;
+    top: 50%;
+}
+.left{
+    right: 94px;
+}
+.right{
+    left: 98px;
+}
+
+.Icon{
+    position: absolute;
+    bottom:35px;
+    left: 90px;
+
+}
+.Icon a{
+    text-decoration: none;
+}
+.qq-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background: url("../images/腾讯icon.png")no-repeat center center;
+}
+.weibo-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background: url("../images/微博icon.png")no-repeat center center;
+}
+.zhifu-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background: url("../images/支付宝icon.png")no-repeat center center;
+}
+.weixin-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/微信icon.png")no-repeat center center;
+}
+
+/* bottom.css */
+.bottom{
+    width:100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+.bottom-size{
+    width: 333px;
+    height: 30px;
+    margin: 100px auto 0;
+}
+.bottom-ul li{
+    float:left;
+    list-style: none;
+    font-size: 14px;
+}
+.bottom-ul-a{
+    text-decoration: none;
+    color: #999;
+}
+.bottom-ul-a:hover{
+    color: #333333;
+}
+.bottom-split{
+    color: #999;
+}
+.bottom-gongan{
+    font-size: 14px;
+    color: #999;
+}
+.bottom-gongan{
+    position: absolute;
+    display: inline-block;
+    width: 575px;
+    margin:auto;
+    left: 0;right: 0;
+}
+.gongan-a{
+    text-decoration: none;
+}
