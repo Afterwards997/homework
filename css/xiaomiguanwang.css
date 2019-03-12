@@ -1,5 +1,5 @@
 /* top.css */
-*{margin: 0;padding: 0}
+*{margin: 0px;padding: 0px;}
 .top{
     height: 40px;
     background: #f9f9f9;
@@ -777,19 +777,15 @@
     margin-top: 25px;
     cursor: pointer;
 }
-.bottom-adv{
-    display: block;
-    width: 1240px;
-    height: 180px;
-    margin: -180px auto;
-    text-align: center;
-    overflow: hidden;
-}
 .row-center{
-    margin-top: 40px;
-    height: 20px;
+    height: 180px;
     line-height: 20px;
     padding-left: 155px;
+    overflow: hidden;
+    position: relative;
+}
+.row-center ul{
+    margin-top: 40px;
 }
 .row-center li{
     float: left;
@@ -806,18 +802,23 @@
     font-size: 12px;
     padding: 0 10px;
 }
-.bottom-adv p{
+.row-center p{
+    display: inline-block;
     font-size: 12px;
     color: #333;
+    padding-left: 190px;
 }
-.bottom-adv img{
+.row-center img{
+    display: block;
     margin-top: 30px; 
-    margin-right: 20px; 
+    margin-left: 250px; 
 }
 .form-control{
     width: 200px;
     height: 40px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-top: 15px;
+    position: absolute;
+    right: 450px;
+    bottom: 40px;
 }
